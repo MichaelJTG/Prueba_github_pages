@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="shortcut icon" href="img/icon.png" type="x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breaking Bad - Que comience el juego! </title>
+</head>
+
+<body id="BForm">
+  <form id="form" action="mailto:raul.rodriguez@proeducaglobal.com" method="get" name="ficha">
+    <fieldset>
+      <legend>Breaking Bad - Que comience el juego!</legend>
+      <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="nombre">Nombre:</label><input id="nombre" type="text" name="Nombre" placeholder="juan jose"
+          required>
+        <label for="Email">Correo Electronico: </label> <input id="Email" type="text" name="Email"
+          placeholder="JJose@gmail.com" required>
+        <label for="Apellidos">Apellidos:</label><input id="Apellidos: " type="text" name="apellidos"
+          placeholder="perz garcia" required>
+        <label for="Ciudad">Ciudad: </label><input id="Ciudad" type="text" name="Ciudad" placeholder="Barcelona">
+        <label for="Cp">Codigo postal:</label><input id="Cp" type="text" name="CP" placeholder="46000">
+      </fieldset>
+      <fieldset>
+        <legend>Direccion</legend>
+        <label for="Direccion">Direccion:</label><input id="Direccion" type="text" name="Dirección"
+          placeholder="calle...">
+        <label for="calle"> calle: </label> <input id="calle" type="text" name="Calle"
+          placeholder="pintor rodriguez...">
+        <label for="Numero"> Numero:</label><input id="Numero" type="text" name="numero" placeholder="numero 6...">
+        <label for="Piso">Piso:</label><input id="Piso" type="text" name="piso" placeholder="piso 4....">
+        <label for="DNI">DNI:</label><input id="DNI" type="text" name="DNI" placeholder="DNI o NIE">
+      </fieldset>
+      <fieldset>
+        <legend>Fecha de nacimiento y sexo</legend>
+        Hombre<input class="Radio" type="radio" name="sexo" value="Hombre">
+        Mujer<input class="Radio" type="radio" name="sexo" value="Mujer">
+        Fecha de nacimiento <input type="date" name="Fecha de nacimiento" id="fecha">
+      </fieldset>
+    </fieldset>
+    <fieldset>
+      <fieldset>
+        <legend>Escoge tu lado de la historia:</legend>
+        Seleccion a un personaje
+        <select name="personaje">
+          <option value="1">Jessie Pinkman</option>
+          <option value="2">Walter White</option>
+          <option value="3"> Saul Goodman</option>
+          <option value="4"> Gustavo Fring</option>
+          <option value="5">Pollos Hermanos</option>
+          <option value="6">Otros personajes</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        Opinion
+        <textarea rows="9" cols="100" placeholder="Dajanos tu Opinion..."></textarea>
+        <input id="BotonEnv" type="submit" value="Enviar">
+        <input id="BontoBor" type="reset" value="Borrar/Reset">
+        <input id="BotonAdju" type="file" name="Adjuntar" accept=".pdf" multiple>
+      </fieldset>
+    </fieldset>
+
+
+
+
+    </fieldset>
+
+
+
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+#bodyTabla {
+    text-align: center;
+    background-color: #0c3e11;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2b2c24;
+    margin: 0;
+}
+
+
+table {
+    border: 3px solid #222;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 40px;
+    empty-cells: hide;
+    text-align: center;
+    table-layout: fixed;
+    width: 1200px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 3px;
+    margin-top: 1px;
+}
+
+th,
+td {
+    border: 7px solid;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#hank {
+    background-image: url(../img/hankschrader.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#Subtabla {
+    background-color: #afb225;
+    margin-top: 40px;
+    width: 900px;
+}
+
+#MA {
+    background-color: #9a80b8;
+}
+
+.FondoVerdeClaro {
+    background-color: #a6c613;
+}
+
+.FondoVerdeClaro2 {
+    background-color: #b1cb45;
+
+}
+
+.FondoParteBaja {
+    background-color: #c0d075;
+}
+
+.FondoGris {
+    background-color: #a9b092;
+}
+
+.GrisVerde {
+    background-color: #757f48;
+}
+
+.fondoNegro {
+    background-color: #2b2c24;
+}
+
+.fondoVDArk {
+    background-color: #7b9417;
+}
+
+.Verdecentro {
+    background-color: #89a419;
+}
+
+.darkGreen {
+    background-color: #596622;
+}
+
+.verdeST {
+    background-color: #d6ddb7;
+}
